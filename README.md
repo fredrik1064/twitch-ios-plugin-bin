@@ -36,6 +36,14 @@ TwitchKit posts the following notifications to the default NSNotificationCenter:
 
 **TKLoginViewWasDismissedNotification** <- Sent after the login view has animated out. If authentication was successful, the userInfo dictionary will contain the auth token as an NSString associated with TKAuthTokenUserInfoKey. If an error occured, an NSString describing it will be associated with TKErrorUserInfoKey. If neither key is present in the dictionary, the login view was dismissed by the user tapping the cancel button.
 
-###Device support
+###Requirements
 
 TwitchKit v2.0 should be deployed in applications that link against 7.0 and later versions of the iOS SDK. The Release and Debug binaries are compiled for armv7, armv7s and i386 architectures.
+
+You project should also link against the following standard libraries:
+ImageIO.framework
+libc++.dylib
+libz.dylib
+UIKit.framework
+Foundation.framework
+CoreGraphics.framework
