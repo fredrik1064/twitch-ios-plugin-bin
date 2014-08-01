@@ -1,7 +1,7 @@
 ###TwitchKit v2.0 Integration Notes
 
 ###Integration
-TwitchKit enables you to embed a list of live streams, play live broadcasts and authenticate Twitch users in your iOS app with minimal effort.
+TwitchKit enables you to embed a list of live channels, play live broadcasts and authenticate Twitch users in your iOS app with minimal effort.
 
 To add TwitchKit to your project, simply drop TwitchKit.framework and TwitchKit.bundle to the Frameworks section of your project in Xcode. Then, include the TwitchKit header file and invoke the presentStreamListForGameTitle:mode: with the name of your game:
 
