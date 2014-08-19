@@ -48,3 +48,7 @@ libz.dylib
 UIKit.framework
 Foundation.framework
 CoreGraphics.framework
+
+###License
+
+Please refer to the license information [here](https://github.com/twitchtv/twitch-ios-plugin-bin/blob/master/LICENSE.md)
