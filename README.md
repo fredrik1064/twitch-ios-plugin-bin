@@ -51,7 +51,7 @@ You project should also link against the following standard libraries:
 
 ###Changelog
 
-##v2.0.1##
+####v2.0.1####
 * Addresses an issue preventing streams from being displayed directly using presentStreamForChannelNamed:mode:
 * Addresses URL encoding issues for certain game titles
 * Improves compatibility with iOS 8
