@@ -42,19 +42,19 @@ TwitchKit posts the following notifications to the default NSNotificationCenter:
 TwitchKit v2.0.1 should be deployed in applications that link against 7.0 and later versions of the iOS SDK. The Release and Debug binaries are compiled for armv7, armv7s and i386 architectures.
 
 You project should also link against the following standard libraries:
-ImageIO.framework
-libc++.dylib
-libz.dylib
-UIKit.framework
-Foundation.framework
-CoreGraphics.framework
+* ImageIO.framework
+* libc++.dylib
+* libz.dylib
+* UIKit.framework
+* Foundation.framework
+* CoreGraphics.framework
 
 ###Changelog
 
-**v2.0.1**
-Addresses an issue preventing streams from being displayed directly using presentStreamForChannelNamed:mode:
-Addresses URL encoding issues for certain game titles
-Improves compatibility with iOS 8
+##v2.0.1##
+* Addresses an issue preventing streams from being displayed directly using presentStreamForChannelNamed:mode:
+* Addresses URL encoding issues for certain game titles
+* Improves compatibility with iOS 8
 
 ###License
 
